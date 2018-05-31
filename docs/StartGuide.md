@@ -2,6 +2,22 @@
 
 You need to [set up the cordova development environment](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) beforehand.
 
+1. [Install the Requirements](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#installing-the-requirements)
+2. Install cordova
+```sh
+$ npm install -g cordova
+```
+3. Check the requirements
+```sh
+$ cordova requirements
+```
+4. Install Vue CLI
+```sh
+$ npm install -g @vue/cli
+```
+
+Then create your project.
+
 ```sh
 $ vue create my-project   # create your vue project. install @vue/cli if you haven't.
 $ cd my-project
